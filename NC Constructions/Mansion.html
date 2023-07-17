@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Mansion.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="nav" id="mynav">
+            <a href="Mainpage.html" class="navleft-logo"><b>NC <i class="fa fa-home" style="font-size:17px"></i> CONSTRUCTIONS</b></a>
+            <a href="#" class="navleft">Home</a>
+            <a href="#" class="navleft">Projects</a>
+            <a href="#" class="navleft">About</a>
+            <a href="#" class="navleft">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+            <a href="login.html" class="navright">Login</a>
+            <a href="signup.html" class="navright">Signup</a>
+            
+        </div>
+
+        <div class="article">
+
+            <div class="mansions"> 
+                <div class="mansions-heading">Mansions</div>
+                <div class="underline"> <hr style="height:1px;width:100%;border:0px;background-color:white"/></div>
+                <div class="mansions-matter">
+                    Below are the different aesthetic Mansions we have built.          
+                </div>
+                <div class="mansions-grid">
+                    <div class="item">
+                        <div class="mansionphoto1"> </div>
+                        <div class="mansion-text1">18 cr</div>
+                        <div class="quotation"><a href="">Get Quote</a></div>
+                    </div>
+
+                    <div class="item">
+                        <div class="mansionphoto2"> </div>
+                        <div class="mansion-text2">15 cr</div>
+                        <div class="quotation"><a href="">Get Quote</a></div>
+                    </div>
+
+                    <div class="item">
+                        <div class="mansionphoto3"> </div>
+                        <div class="mansion-text3">16 cr </div>
+                        <div class="quotation"><a href="">Get Quote</a></div>
+                    </div>
+
+                    <div class="item">
+                        <div class="mansionphoto4"> </div>
+                        <div class="mansion-text4">12 cr</div>
+                        <div class="quotation"><a href="">Get Quote</a></div>
+                    </div>
+                    
+                    <div class="item">
+                        <div class="mansionphoto5"> </div>
+                        <div class="mansion-text5">15 cr </div>
+                        <div class="quotation"><a href="">Get Quote</a></div>
+                    </div>
+
+                    <div class="item">
+                        <div class="mansionphoto6"> </div>
+                        <div class="mansion-text6">12 cr</div>
+                        <div class="quotation"><a href="">Get Quote</a></div>
+                    </div>
+
+                   
+
+
+                      
+                </div>
+            </div>
+
+            <div class="contactus">
+                <div class ="contactus-heading">Get in touch</div>
+                <div class="underline"> <hr style="height:1px;width:100%;border:0px;background-color:black"/></div>
+                <div class="contactus-matter">Wanna built your dream Mansion</div>   
+                <div class="Form">
+                    <form>
+                        <label for="name">Name</label>
+                        <input name="name" type="text" required/>
+                        <label for="email">Email</label>
+                        <input name="email" type="email" required/>
+                        <label for="subject">Subject</label>
+                        <input name="subject" type="text" required/>
+                        <label for="message">Message</label>
+                        <input name="message" type="text" required/>
+                        <input  type="submit" value="Send"/>
+                    </form>
+                </div>
+                
+            </div>       
+        </div>
+
+        <div class="footer">
+            <p>follow us on</p>
+            <div class="socials">
+                <a href="" class="fa fa-facebook"></a>
+                <a href="" class="fa fa-instagram"></a>
+                <a href="" class="fa fa-twitter"></a>
+                <a href="" class="fa fa-linkedin"></a>
+            </div>
+            <a href="" class="tothetop"> <i class="fa fa-arrow-up" ></i> To the top</a>
+            <p>Powered by <a href="https://in.linkedin.com/in/charanjit-nandigama-673728249" 
+                style="text-decoration: none; color:white;">Charanjit</a></p>
+        </div>
+        
+    </div>
+
+    <script>
+        function myFunction(){
+            var x = document.getElementById("mynav")
+            if(x.className=== "nav"){
+                x.className += " responsive";
+            }
+            else{
+                x.className = "nav"
+            }
+        }
+    </script>
+
+</body>
+</html>
