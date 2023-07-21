@@ -1,0 +1,394 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+body{
+    width:98vw;
+    height:100vh;
+}
+.main-container{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nav
+{
+    
+    width:100%;
+    height:40px;
+    left:0;
+    position: fixed;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color:black;
+
+}
+.nav a{
+    font-family: "Lato", sans-serif;
+    text-decoration: none;
+    color: yellow;
+    font-size: 16px;
+    height: 40px;
+    width:25%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    
+}
+.nav a:hover{
+    background-color:lightgray;
+    color: black;
+}
+
+
+.article{
+    width:79.3%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.heading{
+    width:100%;
+    height:146px;
+    font-family: "Lato", sans-serif;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Banner{
+    width:100%;
+    height:535px;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image:url("Banner1.jpg") ;
+    background-size: cover;
+    background-repeat: no-repat;   
+}
+.SelectBanner{
+    width:100%;
+    height:50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color:grey;
+    gap:25em;
+}
+
+.Offerings{
+    width:100%;
+    height:350px;
+    font-family:"Lato",sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.services{
+    width:100%;
+    height:50%;
+    padding-top: 39px;
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    
+   
+}
+.Design {
+    width:25%;
+    height:100%;
+    background-color:lightgray;
+
+}
+.Branding {
+    width:25%;
+    height:100%;
+    background-color: darkgray;
+
+}
+.Consultation {
+    width:25%;
+    height:100%;
+    background-color: gray;
+}
+.Promises{
+    width:25%;
+    height:100%;
+    background-color:black;
+}
+
+.Pricing-Plans{
+    width:100%;
+    font-family: "Lato",sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.Plans{
+    width:100%;
+    padding-top: 39px;
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    gap:15px;
+}
+.PlanType{
+    height:100%;
+    width:33%;
+    border: 1px;
+    border-color: lightgray;
+    display:flex;
+    flex-direction: column;
+}
+.PlanType:hover{
+    box-shadow: 0 4px  10px gray;
+}
+
+.PlanName{
+    height:90px;
+    background-color: black;
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.PlanDetails{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.PlanDetails p{
+    padding-top:17px;
+    padding-bottom:17px;
+}
+
+.PlanDetails hr{
+    height:1px;
+    width:100%;
+    border:0px;
+    background-color:lightgray;
+}
+
+.SignUp{
+    width:100%;
+    height:90px;
+    background-color: rgba(236, 232, 232, 0.815);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Sign{
+    color:white;
+    padding:15px 25px 15px 25px;
+    background-color: rgb(66, 192, 66);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.Sign:hover{
+    color:black;
+    background-color: lightgray;
+   
+
+}
+
+.AboutUs{
+    width:100%;
+    display:flex;
+    font-family: "Lato",sans-serif;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Pillars{
+    width:100%;
+    padding-top: 39px;
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    gap:18px;
+}
+
+.Profiles{
+    width:33%;
+    height:100%;
+    border: 1px;
+    box-shadow: 0 4px  10px gray;
+    border-color: lightgray;
+    display:flex;
+    flex-direction: column;
+}
+.ProfilePhoto1{
+    width:100%;
+    height:170px;
+    background-image: url("CEO.jpg");
+    background-size: cover;
+}
+.ProfilePhoto2{
+    width:100%;
+    height:170px;
+    background-image: url("Artdirector.png");
+    background-size: cover;
+}
+.ProfilePhoto3{
+    width:100%;
+    height:170px;
+    background-image: url("Designer.png");
+    background-size: cover;
+}
+.Profiles h2,.Profiles h4,.Profiles p{
+    margin:0px 15px 0px 15px ;
+    padding: 8px 0px 8px 0px
+    
+}
+.Profiles h4{
+    color: gray;
+}
+
+.Contact{
+    
+    background-color: lightgray;
+    margin:0px 15px 15px 15px ;
+    padding:10px 0px 10px 0px ;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:black;
+    cursor: pointer;
+
+}
+.Contact:hover{
+    background-color:black;
+    color:yellow;
+}
+
+.Form{
+    font-family: "Lato",sans-serif;
+    width:80%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+form{
+    font-family: "Lato",sans-serif;
+    width:100%;
+}
+
+input[name="name"],
+input[name="mail"],
+input[name="subject"],
+input[name="message"]
+{
+    width:100%;
+    height:35px;
+    margin-bottom: 20px;
+}
+
+input[name="send"]{
+    background-color: black;
+    color:yellow;
+    border:none;
+    width:100.4%;
+    height:35px;
+    cursor: pointer;
+
+}
+input[name="send"]:hover{
+    background-color: gray;
+    color:black;
+}
+
+.Footer{
+    margin-top: 100px;
+    padding: 40px 0px 40px 0px;
+    width:100%;
+    background-color: lightgray;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+.tothetop{
+    background-color: black;
+    padding:10px 15px 10px 15px;
+}
+.tothetop:hover{
+    background-color: blue;
+    color: black;
+}
+.fa-arrow-up{
+    background: transparent;
+    color: white;
+}
+
+
+.fa {
+  font-size: 40px;
+  width:40px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.8;
+    background-color: gray;
+}
+
+.fa-arrow-up:hover{
+    background:transparent;
+    opacity: 1;
+}
+
+
+.fa-facebook {
+   
+  background: #3B5998;
+  color: white;
+  padding-left: 3px;
+}
+.fa-instagram {
+  background: rgba(223, 104, 6, 0.986);
+  color: white;
+}
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
