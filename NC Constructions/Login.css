@@ -1,0 +1,100 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: "Lato", sans-serif;
+}
+
+body{
+    width:100vw;
+    height:100vh;
+}
+.main-container{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    background-color: black;
+}
+.login{
+    width:30%;
+    height:50%;
+    background-color: yellow;
+    box-shadow: 0 0.5em 1.5em yellow;
+    border-radius: 1.5em;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:2em;
+    
+}
+.login-heading{
+    font-size:x-large;
+    font-weight: bolder;
+}
+.loginform {
+    width:80%;
+    height:fit-content;   
+    
+}
+form{
+    height: 100%;
+    width: 100%;
+}
+input[name="id"],
+input[name="password"]{
+    width:98.4%;
+    height:2.4em;
+    margin-bottom:1em;
+   
+}
+input[value="Login"]{
+    background-color:black;
+    color:white;
+    border-radius:2.5em;
+    border:none;
+    width:100%;
+    height:2.2em; 
+    cursor: pointer;
+    
+}
+input[value="Login"]:hover{
+    background-color: lightgrey;
+    color:black;
+}
+
+/* ---------------------------------------mobiles potrait-------------------*/
+@media screen and (max-width:414px) and (min-width:360px)  
+{
+  .login{
+    width:60%;
+    height:40%;
+    gap:1em;
+  }
+}
+
+/* ---------------------------------------mobiles landscape-------------------*/
+@media screen  and (max-width:915px) and (min-width:667px) 
+{
+  .login{
+    width:40%;
+    height:72%;
+    gap:1em;
+  }
+ 
+}
+
+/* ---------------------------------------   ipads  ---- -------------------*/
+@media screen and (max-width:820px) and (min-width:768px)  
+{
+  .login{
+    width:50%;
+    height:30%;
+    
+  }
+ 
+}
+
+
